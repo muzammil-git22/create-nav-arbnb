@@ -148,3 +148,37 @@ margin: 0 -130px;
   border-radius: 50px;
   margin: 0px -260px;
 }
+.card{
+  position: relative;
+  margin: 50px 500px;
+  position: relative;
+  width: 320px;
+  height: 380px;
+  border: 1px solid black;
+}
+.images2{
+  position: relative;
+  margin: 10px 17px;  
+}
+.images2 img{
+  border-radius: 10px;
+}
+.hidd{
+  font-family: arbnb;
+  font-size: 13px;
+  margin: 0px 10px;
+}
+.hidd p{
+  width: 130px;
+  font-size: 16px;
+color: gray;
+}
+.hidd i{
+  margin: -20px 250px;
+padding: 40px 0px;
+}
+h2{
+  font-family: arbnb;
+  font-size: 15px;
+  margin: 10px 10px;
+}
