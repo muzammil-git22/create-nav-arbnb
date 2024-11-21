@@ -2,7 +2,6 @@
   font-family: arbnb;
   src: url(./AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.ttf);
 }
-
 *{
   margin: 0;
   padding: 0;
@@ -21,23 +20,33 @@ html,body{
   margin: -53px 0px;
 }
 .image{
-  cursor: pointer;
   margin-left:30px ;
   width: 10px;
 }
 .text-a{
   cursor: pointer;
-  text-align: center;
   font-family: arbnb;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 25px;
   color: #222222;
   font-size: 14px;
-  margin: 0px 40px;
 }
 .er{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   color: gray;
+  justify-content: center;
   font-weight: 100;
+  border-radius: 50px;
+}
+.er:hover{
+  color: black;
+  background-color: #F7F7F7;
+  padding: 8px 10px;
 }
 .paragraph-icon{
   cursor: pointer;
@@ -50,6 +59,22 @@ html,body{
   display: flex;
   gap: 25px;
 margin-right:50px;
+padding: 0px 10px;
+}
+.paragraph-icon h3:hover{
+  position: relative;
+  background-color:#F7F7F7;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.paragraph-icon i{
+  font-size: 18px;
+}
+.paragraph-icon i:hover{
+  font-size: 18px;
+background-color: #F7F7F7;
+padding: 10px 10px;
+border-radius: 50px;
 }
 .but{
   cursor: pointer;
@@ -64,6 +89,10 @@ margin-right:50px;
 }
 .but i{
   font-size: 15px;
+}
+.but:hover{
+  box-shadow: 2px 2px 3px #DDDDDD;
+
 }
 .heading{
 
@@ -90,32 +119,50 @@ padding: 20px 66px;
 border-radius: 50px;
 border-right-style:none;
 }
+.head1 input{
+ border: none;
+ outline: none;
+}
 .head1:hover{
   background-color:#DDDDDD;
+}
+.head1 input:hover{
+  background-color:#DDDDDD;
+
 }
 .head2{
     position: relative;
     margin: -18px 40px;
-    padding: 19px 34px;
+    padding: 19px 20px;
     border-radius: 50px;
 }
-.head2 p{
-  font-size: 15px;
+.head2 input{
+  position: relative;
+  outline: none;
+  border: none;
+  padding: 0px -33px;
 }
 .head2:hover{
 background-color: #DDDDDD;
 }
+.head2 input:hover{
+  background-color: #DDDDDD;
+  }
 .head3{
   margin: -18px -99px;
   position: relative;
   right: 60px;
-  padding: 19px 34px;
+  padding: 19px 24px;
 border-radius: 50px;
 }
-.head3 p{
-  font-size: 15px;
+.head3 input{
+outline: none;
+border: none;
 }
 .head3:hover{
+background-color: #DDDDDD;
+}
+.head3 input:hover{
 background-color: #DDDDDD;
 }
 .head4{
@@ -134,27 +181,36 @@ margin: 0 -130px;
   font-size: 15px;
 }
 .head4:hover{
-
   background-color: #DDDDDD;
-
 }
 .ic{
   position: relative;
   right: 150px;
   font-size: 15px;
-  padding: 15px 15px;
+  padding: 15px 16px;
   color: wheat;
   background-color: red;
   border-radius: 50px;
   margin: 0px -260px;
 }
-.card{
+.ic i{
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.cards{
   position: relative;
-  margin: 50px 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+right: 70px;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.card1{
   position: relative;
-  width: 320px;
-  height: 380px;
-  border: 1px solid black;
 }
 .images2{
   position: relative;
